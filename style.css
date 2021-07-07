@@ -154,7 +154,7 @@ margin-top: -8%;
 }
 
 .cute-dog {
-  position: fixed;
+  position: absolute;
   max-width: 165px;
   height: auto;
   bottom: 5%;
