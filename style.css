@@ -71,10 +71,10 @@ margin-top: -8%;
   margin: 0 auto;
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
-  padding: 64px 64px 0 64px;
+  padding: 64px;
   position: relative;
 }
-
+/* Button 1 */
 #theButton {
   display: flex;
   justify-content: center;
@@ -115,10 +115,49 @@ margin-top: -8%;
   color: #7BA9A9;
 }
 
+
+/* Button 2 */
+#theButton-2 {
+  font-size: 2rem;
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 64px;
+  border: 0;
+  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
+  background: var(--color-primary);
+  color: #fff;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#theButton-2:hover {
+  cursor: pointer;
+  background-color: #699191;
+}
+
+#theButton-2:hover svg {
+  color: #7BA9A9;
+}
+
+#theButton-2 svg {
+  margin-right: 10px;
+}
+
+
 .theme {
   font-family: 'Lora', serif;
   display: block;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   text-transform: capitalize;
   margin-top: 16px;
   font-size: 6rem;

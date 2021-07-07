@@ -36,7 +36,7 @@ var themeList = [
     return themeList[Math.floor(Math.random() * themeList.length)];
   };
   
-  $("#theButton").click(function () {
+  $("#theButton-2").click(function () {
     $(".theme").html(getTheme());
   });
   
