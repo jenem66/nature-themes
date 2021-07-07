@@ -154,11 +154,11 @@ margin-top: -8%;
 }
 
 .cute-dog {
-  position: absolute;
+  position: fixed;
   max-width: 165px;
   height: auto;
   bottom: 5%;
-  left: 5%;
+  right: 5%;
 }
 
 
@@ -180,10 +180,9 @@ margin-top: -8%;
      font-size: 4.3rem;
     }
     .cute-dog {
+      position: fixed;
       max-width:105px;
       height: auto;
-      bottom: 5%;
-      right: 4%;
     }
     
 }
