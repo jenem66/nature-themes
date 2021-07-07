@@ -161,6 +161,7 @@ margin-top: -8%;
   text-transform: capitalize;
   margin-top: 16px;
   font-size: 6rem;
+  height: 72px;
 }
 
 .white-bg {
@@ -221,6 +222,7 @@ margin-top: -8%;
     }
     .theme {
      font-size: 4.3rem;
+     height: 56px;
     }
     .cute-dog {
       position: fixed;
