@@ -54,6 +54,14 @@ li {
   margin-bottom: 16px;
 }
 
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
 img {
 max-width: 100%;
 }
