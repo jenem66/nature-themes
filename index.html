@@ -4,18 +4,59 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Nature Theme Generator</title>
+      
+      <!-- BOOTSTRAP -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
       <!-- FONTS -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLabel">Guidelines</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>Creations can be any medium ie painting, poem, music</li>
+              <li>Post on blog on due date optional to write anything about what inspired your and include a link if you want</li>
+              <li>Post on blog on due date optional to write anything about what inspired your and include a link if you want</li>
+              <li>Post on blog on due date optional to write anything about what inspired your and include a link if you want</li>
+              <li>Post on blog on due date optional to write anything about what inspired your and include a link if you want</li>
+              <li>Post on blog on due date optional to write anything about what inspired your and include a link if you want</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="guidelines-link" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#617575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 16V12" stroke="#617575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 8H12.01" stroke="#617575" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <a href="#">Guidelines</a>   
+      </div>
+    </header>
+
     <div class="container">
       <!-- NATURE IMG -->
-      <!-- width="489" height="256" -->
       <svg class= "plants" viewBox="0 0 489 256" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0)">
         <path d="M57.8277 263.898C57.8277 263.898 70.7056 220.175 55.4109 187.994C48.9902 174.489 46.8604 159.325 49.8254 144.667C51.2432 137.708 53.2963 130.893 55.959 124.309" stroke="#535461" stroke-width="1.04401" stroke-miterlimit="10"/>
@@ -109,6 +150,8 @@
     </div>
     <div class="white-bg"></div>
     <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <script src="jquery.js"></script>
     <script src="main.js"></script>
 

@@ -10,6 +10,7 @@
 html {
 /* set up sizing for using REM*/
 font-size: 62.5%;
+font-family: 'Open Sans', sans-serif;
 /* colors */
 --color-primary: #5C7F7F;
 --color-secondary: #4F5A5E;
@@ -24,22 +25,33 @@ box-sizing: border-box;
 background-color: var(--color-bg-color);
 height: 100vh;
 text-align: center;
-padding-top: 13%;
+/* padding-top: 13%; */
 display: flex;
-justify-content: center;
+flex-direction: column;
+/* justify-content: center; */
 color: var(--color-secondary);
 /* align-items: center; */
+
+position: relative;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 16px;
 }
 
 p {
 font-size: 2.8rem;
 line-height: 149%;
-font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 
 max-width: 320px;
 display: inline-block;
 margin: 0 auto;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 img {
@@ -56,14 +68,79 @@ display: flex;
 /* max-width: 1200px;*/
 width: 80%;
 z-index: 1;
-margin-top: -8%;
+margin: 0 auto;
 }
+
+/* GUIDELINES */
+
+.guidelines {
+  display: none;
+
+  position: absolute;
+  z-index: 10;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* transform: translateY(-50%); */
+  background-color: var(--color-light);
+  max-width: 750px;
+  padding: 60px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 1.8rem;
+  text-align: left;
+  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.guidelines-link {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  padding: 32px;
+}
+
+.guidelines-link:hover {
+  color: var(--color-secondary);
+}
+
+.guidelines-link a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.guidelines-link a:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.guidelines-link svg {
+  margin-right: 8px;
+}
+
+.modal-body {
+  font-size: 2rem;
+  text-align: left;
+  padding: 40px;
+}
+
+.modal-header {
+  font-size: 1.6rem;
+  padding: 2.4rem;
+}
+
+/* GENERATOR */
 .plants{
   max-width: 490px;
   height: auto;
 }
-
-/* GENERATOR */
 .generator {
   background-color: var(--color-light);
   min-height: 380px;
@@ -74,49 +151,26 @@ margin-top: -8%;
   padding: 64px;
   position: relative;
 }
-/* Button 1 */
-#theButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 72px;
-  width: 100%;
-  border: 0;
-  border-radius: 0 0 4px 4px;
-  background: var(--color-secondary);
+
+/* BUTTONS */
+.btn {
+  font-size: 2rem;
+}
+
+.btn-secondary {
   color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -ms-transition: all .3s;
-  -o-transition: all .3s;
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  -ms-border-radius: 0 0 4px 4px;
-  -o-border-radius: 0 0 4px 4px;
-}
-#theButton:hover {
-  cursor: pointer;
-  background-color: #546064;
-}
-#theButton svg {
-  color: var(--color-secondary);
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
-#theButton:hover svg {
-  color: #7BA9A9;
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #699191;
+  border-color: #699191;
 }
-
 
 /* Button 2 */
+
 #theButton-2 {
   font-size: 2rem;
   margin: 40px auto 0;
@@ -128,7 +182,7 @@ margin-top: -8%;
   border: 0;
   border-radius: 4px;
   border-radius: 0 0 4px 4px;
-  background: var(--color-primary);
+  background-color: var(--color-secondary);
   color: #fff;
   transition: all .3s;
   -webkit-transition: all .3s;
@@ -142,7 +196,7 @@ margin-top: -8%;
 }
 #theButton-2:hover {
   cursor: pointer;
-  background-color: #699191;
+  background-color:#617076;
 }
 
 #theButton-2:hover svg {
@@ -157,10 +211,10 @@ margin-top: -8%;
 .theme {
   font-family: 'Lora', serif;
   display: block;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-transform: capitalize;
   margin-top: 16px;
-  font-size: 5.5rem;
+  font-size: 5rem;
   height: 64px;
 }
 
@@ -205,9 +259,9 @@ margin-top: -8%;
 
 /* MOBILE RESPONSIVE */
 @media(max-width: 500px) {
-  body {
+  /* body {
     padding-top: 15%;
-    }
+    } */
   .container {
     width: 90%;
   }
