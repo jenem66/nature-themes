@@ -93,31 +93,6 @@ header{
 
 /* GUIDELINES */
 
-.guidelines {
-  display: none;
-
-  position: absolute;
-  z-index: 10;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  /* transform: translateY(-50%); */
-  background-color: var(--color-light);
-  max-width: 750px;
-  padding: 60px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  font-size: 1.8rem;
-  text-align: left;
-  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-}
 .guidelines-link {
   display: flex;
   align-items: center;
@@ -141,12 +116,6 @@ header{
   color: var(--color-primary);
   text-decoration: none;
 }
-
-/* .guidelines-link a:hover {
-  color: var(--color-secondary);
-  text-decoration: none;
-  font-weight: 600;
-} */
 
 .guidelines-link svg {
   margin-right: 8px;
