@@ -87,6 +87,7 @@ header{
   justify-content: space-between;
   align-content: center;
   padding: 32px;
+  margin-bottom: 72px;
 }
 
 
@@ -249,7 +250,7 @@ header{
   position: absolute;
   background-color: var(--color-light);
   width: 100%;
-  height: 60%;
+  height: 50%;
   bottom: 0;
 }
 
@@ -291,6 +292,7 @@ header{
     } */
   header {
     padding: 20px;
+    margin-bottom: 40px;
   }
   .logo {
     width: 130px;
