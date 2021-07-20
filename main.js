@@ -78,5 +78,3 @@ var themeList = [
     $(".theme").html(getTheme());
   });
   
-
-
