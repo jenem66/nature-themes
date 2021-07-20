@@ -308,10 +308,6 @@ footer{
   padding: 64px;
 }
 
-/* th {
-  font-size: 1.4rem;
-} */
-
 /* MOBILE RESPONSIVE */
 @media(max-width: 500px) {
   /* body {
@@ -325,7 +321,8 @@ footer{
     width: 130px;
     margin-top:3px;
   }
-  .guidelines-link {
+  .guidelines-link,
+  .due-date {
     padding: 0 10px;
     height: 48px;
     font-size: 1.6rem;
