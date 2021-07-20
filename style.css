@@ -310,9 +310,9 @@ footer{
 
 /* MOBILE RESPONSIVE */
 @media(max-width: 500px) {
-  /* body {
-    padding-top: 15%;
-    } */
+  body {
+    font-size: 1.6rem;
+    }
   header {
     padding: 20px;
     margin-bottom: 40px;
@@ -325,7 +325,6 @@ footer{
   .due-date {
     padding: 0 10px;
     height: 48px;
-    font-size: 1.6rem;
   }
   .container {
     width: 90%;
