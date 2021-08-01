@@ -305,7 +305,18 @@ footer{
 
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 4px;
-  padding: 64px;
+  padding: 40px;
+}
+
+.activity-log h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: currentColor;
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
 /* MOBILE RESPONSIVE */
@@ -317,6 +328,12 @@ footer{
     padding: 20px;
     margin-bottom: 40px;
   }
+  h2 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 2.2rem;
+    }
   .logo {
     width: 130px;
     margin-top:3px;
@@ -336,20 +353,29 @@ footer{
     font-size: 1.6rem;
     margin-top: 32px;
   }
-  p {
-    font-size: 2.2rem;
+
+  .theme {
+    font-size: 3.8rem;
+    height: 56px;
+  }
+  .cute-dog {
+    max-width:105px;
+    bottom: 16px;
+    height: auto;
+  }
+  .generator {
+    padding: 40px 20px;
+    min-height: 300px;
     }
-    .theme {
-     font-size: 3.8rem;
-     height: 56px;
-    }
-    .cute-dog {
-      max-width:105px;
-      bottom: 16px;
-      height: auto;
-    }
-    .generator {
-      padding: 40px 20px;
-      min-height: 300px;
+
+    /* ACTIVITY LOG */
+    .activity-log {
+      text-align: left;
+      background-color: var(--color-light);
+      margin-top: -56px;
+    
+      box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+      padding: 24px;
     }
 }
