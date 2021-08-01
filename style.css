@@ -278,7 +278,7 @@ footer{
 .activity-log-link {
   color: var(--color-secondary);
   font-size: 2rem;
-  z-index: 99999;
+  z-index: 2;
 }
 
 .activity-log-link ul {
