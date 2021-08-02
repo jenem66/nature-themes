@@ -77,4 +77,12 @@ var themeList = [
   $("#theButton-2").click(function () {
     $(".theme").html(getTheme());
   });
+
+  $(".menu-toggle").click(function(){
+    //toggle show menu class in the menu class
+    $(".menu").toggleClass("menu-show");
+    $(".menu-toggle").toggleClass("menu-toggle-active");
+    return
+  });
+
   
