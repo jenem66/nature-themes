@@ -29,7 +29,7 @@ var themeList = [
   "River",
   "Feather",
   "Cactus",
-  "Leaf",
+  // "Leaf",
   "Branch",
   "Thorns",
   "Twigs",
@@ -67,7 +67,8 @@ var themeList = [
   "Bees",
   "Lotus",
   "Cheetah",
-  "Bamboo"
+  "Bamboo",
+  "Garden"
   ];
   
   var getTheme = function () {

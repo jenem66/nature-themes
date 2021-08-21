@@ -151,7 +151,7 @@ header {
   align-content: center;
   
   padding: 32px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .menu-toggle {
@@ -248,6 +248,11 @@ header {
 }
 
 /* GUIDELINES */
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 30px;
+}
 
 .guidelines-link {
   display: flex;
