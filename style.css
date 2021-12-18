@@ -254,6 +254,10 @@ header {
   margin-bottom: 30px;
 }
 
+.guidelines-list {
+  
+}
+
 .guidelines-link {
   display: flex;
   align-items: center;
