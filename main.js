@@ -50,7 +50,7 @@ var themeList = [
   "Reflection",
   "Ripple",
   "Blossom",
-  "Tiger",
+  //"Tiger",
   "Antler",
   "Tree Log",
   "Natural Path",
