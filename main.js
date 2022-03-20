@@ -58,7 +58,6 @@ var themeList = [
   // "Frog",
   "Owl",
   "Bees",
-  "Lotus",
   "Cheetah",
   "Bamboo",
   "Garden",
