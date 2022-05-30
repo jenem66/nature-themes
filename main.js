@@ -65,7 +65,7 @@ var themeList = [
   "Lion",
   "Zebra",
   // "Panda",
-  "Hippopotamus",
+  // "Hippopotamus",
   "Horse",
   "Dog",
   "Cat",
